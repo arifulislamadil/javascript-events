@@ -12,6 +12,6 @@ document.getElementById("handle-event").addEventListener("click", function () {
 //
 document.getElementById("update-name").addEventListener("click", function () {
     const handleInput = document.getElementById("input");
-    const handleEvent = document.getElementById("clicking-method");
-    handleEvent.innerText(handleInput.value)
+    const p = document.getElementById("clicking-method");
+    p.innerText = handleInput.value;
 })
